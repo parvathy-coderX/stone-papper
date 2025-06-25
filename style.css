@@ -1,0 +1,74 @@
+body {
+  background: linear-gradient(135deg, #667eea, #764ba2 100%);
+  min-height: 100vh;
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  background: #fff;
+  padding: 2em 3em;
+  border-radius: 18px;
+  box-shadow: 0 6px 24px rgba(80, 50, 180, 0.15);
+  text-align: center;
+  width: 320px;
+}
+
+h1 {
+  margin-bottom: 0.5em;
+  font-size: 2em;
+  color: #5a4fcf;
+}
+
+.score-board {
+  font-size: 1.4em;
+  margin-bottom: 1em;
+  color: #333;
+}
+
+.choices {
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+  margin-bottom: 1em;
+}
+
+.choice {
+  font-size: 1.1em;
+  padding: 0.8em 1.2em;
+  border: none;
+  border-radius: 10px;
+  background: #e4e8fd;
+  cursor: pointer;
+  transition: background 0.2s, transform 0.1s;
+}
+
+.choice:hover {
+  background: #c3bffa;
+  transform: scale(1.07);
+}
+
+#result {
+  margin: 1em 0;
+  font-size: 1.12em;
+  min-height: 2em;
+}
+
+#reset-btn {
+  margin-top: 1em;
+  background: #ff7eb3;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 0.6em 1.1em;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+#reset-btn:hover {
+  background: #f75990;
+}
